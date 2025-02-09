@@ -42,7 +42,6 @@ body {
   color: #1f314f;
   line-height: 1.2;
   font-weight: bold;
-  letter-spacing: 0dvh;
 }
 
 .qr-description {
@@ -59,7 +58,6 @@ body {
 
 .qr-hero {
   /* Add spacing */
-  padding: 23.05rem auto;
   background-color: #d5e1ef;
   height: 100vh;
 
