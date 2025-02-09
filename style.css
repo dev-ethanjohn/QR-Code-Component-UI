@@ -1,0 +1,93 @@
+/* 
+--01 TYPOGRAPHY
+
+Font Sizes
+- 22px
+- 15px
+
+Font Weights
+- bold
+- regular
+
+Line-Heights
+1.2 - for the heading
+1.4 - for general texts
+
+--02 COLOR
+#1F314F
+#68778D
+#D5E1EF
+
+*/
+
+/*==== General Styes ====*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  color: #68778d;
+}
+/*==== General Styes ====*/
+
+.qr-title {
+  font-size: 2.2rem;
+  color: #1f314f;
+  line-height: 1.2;
+  font-weight: bold;
+  letter-spacing: 0dvh;
+}
+
+.qr-description {
+  font-size: 1.5rem;
+  color: #68778d;
+  line-height: 1.4;
+  letter-spacing: 0.2px;
+}
+
+.qr-code-img {
+  height: 288px;
+  border-radius: 10px;
+}
+
+.qr-hero {
+  /* Add spacing */
+  padding: 23.05rem auto;
+  background-color: #d5e1ef;
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.qr-card {
+  padding: 16px 16px 40px 16px;
+  width: 320px;
+  height: 500px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.0477);
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.text-content {
+  padding: 0 16px;
+  height: 131px;
+  width: 288px;
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  text-align: center;
+}
