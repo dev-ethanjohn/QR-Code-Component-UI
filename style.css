@@ -52,6 +52,7 @@ body {
 }
 
 .qr-code-img {
+  display: block;
   height: 288px;
   border-radius: 10px;
 }
@@ -59,7 +60,7 @@ body {
 .qr-hero {
   /* Add spacing */
   background-color: #d5e1ef;
-  height: 100vh;
+  min-height: 100vh;
 
   display: flex;
   align-items: center;
